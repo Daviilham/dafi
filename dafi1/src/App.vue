@@ -58,7 +58,7 @@ function prevImage() {
 
     <!-- Image Carousel Section -->
     <div class="carousel">
-      <button @click="prevImage">Previous</button>
+      <button @click="prevImage">back</button>
       <img :src="images[currentImageIndex]" alt="carousel image" />
       <button @click="nextImage">Next</button>
     </div>
